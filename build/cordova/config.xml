@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><widget id="kanailaurent.cordovapluginfile" version="0.1.0"><name>Cordova Plugin File</name><description>Example Tabris.js App</description><author email="kanailaurent@gmail.com">laurent</author><preference name="EnableDeveloperConsole" value="true"/><content src="app/package.json"/></widget>
