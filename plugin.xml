@@ -12,12 +12,10 @@
     <!--<repo>https://github.com/eclipsesource/tabris-plugin-lottie.git</repo>
     <issue>https://github.com/eclipsesource/tabris-plugin-lottie/issues</issue>-->
 <!--
-
-    <js-module src="src/ButtonHandler.js" name="buttonhandler">
-        <clobbers target="eslottie.LottieView" />
+    <js-module src="src/ButtonHandler.js" name="buttonhandler"> la partie js qui recupere les inforamtion venant du natif
+        <clobbers target="eslottie.LottieView" /> //nom de la classe java
     </js-module>
 -->
-
     <platform name="android">
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
@@ -30,11 +28,9 @@
                 android:name="com.eclipsesource.tabris.android.HANDLER.com.buttonhandler"
                 android:value="com.ButtonHandler" />
         </config-file>
-
-        <!--<framework src="com.airbnb.android:lottie:3.2.2" />
-
-        <source-file src="src/android/com/eclipsesource/lottie/LottieViewHandler.kt"
-            target-dir="src/com/eclipsesource/lottie" />
+<!--
+<framework src="com.airbnb.android:lottie:3.2.2" />
+        <source-file src="src/android/com/eclipsesource/lottie/LottieViewHandler.kt" target-dir="src/com/eclipsesource/lottie" />
 -->
     </platform>
 
