@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="buttonhandler-plugin"
+    version="1.0.0">
+
+
+    <name>ButtonHandler Plugin</name>
+    <description>ButtonHandler</description>
+    <author>moi</author>
+    <license>Revised BSD License (3-clause license)</license>
+    <!--<repo>https://github.com/eclipsesource/tabris-plugin-lottie.git</repo>
+    <issue>https://github.com/eclipsesource/tabris-plugin-lottie/issues</issue>-->
+<!--
+    <js-module src="src/ButtonHandler.js" name="buttonhandler"> la partie js qui recupere les inforamtion venant du natif
+        <clobbers target="eslottie.LottieView" /> //nom de la classe java
+    </js-module>
+-->
+    <platform name="android">
+
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <meta-data
+                android:name="com.eclipsesource.tabris.android.HANDLER.com.buttonhandler"
+                android:value="com.ButtonHandler" />
+        </config-file>
+<!--
+<framework src="com.airbnb.android:lottie:3.2.2" />
+        <source-file src="src/android/com/eclipsesource/lottie/LottieViewHandler.kt" target-dir="src/com/eclipsesource/lottie" />
+-->
+    </platform>
+
+</plugin>

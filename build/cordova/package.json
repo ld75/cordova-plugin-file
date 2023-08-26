@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cordova-android": "file:../../../../../../.tabris-cli/platforms/android/3.9.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}

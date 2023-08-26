@@ -1,14 +1,14 @@
 class ButtonHandler extends Widget {
 
   get _nativeType() {
-    return 'myLibrary.MyCustomWidget';
+    return 'com.ButtonHandler';
   }
-set myProperty(value) {
-    this._nativeSet('myProperty', value);
+set maxLines(value) {
+    this._nativeSet('maxLines', value);
   }
 
-  get myProperty() {
-    return this._nativeGet('myProperty');
+  get maxLines() {
+    return this._nativeGet('maxLines');
   }
  _listen(name, listening) {
     if (name === 'myEvent') {

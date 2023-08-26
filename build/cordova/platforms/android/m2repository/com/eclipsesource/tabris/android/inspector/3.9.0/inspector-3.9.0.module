@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.eclipsesource.tabris.android",
+    "module": "inspector",
+    "version": "3.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-3.9.0.aar",
+          "url": "inspector-3.9.0.aar",
+          "size": 51486,
+          "sha512": "f3ef1f3604efb2eff0d4619699318c6ac66e02568e3cd2217fb398eadcf220401d763a1f29c7c6d9b0856154a00e1430bab087af66dcb799b03509f088732a0b",
+          "sha256": "c1b94744b707932ce736d94e1d0621b05584c71217673dc1d91f57c880c908ad",
+          "sha1": "8c6446a12e24561d594795af1de9037548ca2854",
+          "md5": "4523f5a65ab07a8bf63fbdcf85e63755"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.eclipsesource.tabris.android",
+          "module": "tabris",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.koushikdutta.async",
+          "module": "androidasync",
+          "version": {
+            "requires": "2.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inspector-3.9.0.aar",
+          "url": "inspector-3.9.0.aar",
+          "size": 51486,
+          "sha512": "f3ef1f3604efb2eff0d4619699318c6ac66e02568e3cd2217fb398eadcf220401d763a1f29c7c6d9b0856154a00e1430bab087af66dcb799b03509f088732a0b",
+          "sha256": "c1b94744b707932ce736d94e1d0621b05584c71217673dc1d91f57c880c908ad",
+          "sha1": "8c6446a12e24561d594795af1de9037548ca2854",
+          "md5": "4523f5a65ab07a8bf63fbdcf85e63755"
+        }
+      ]
+    }
+  ]
+}

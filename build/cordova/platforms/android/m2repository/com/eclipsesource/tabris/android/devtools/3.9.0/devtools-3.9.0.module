@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.eclipsesource.tabris.android",
+    "module": "devtools",
+    "version": "3.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "devtools-3.9.0.aar",
+          "url": "devtools-3.9.0.aar",
+          "size": 182424,
+          "sha512": "e5a3d087aa060041fe849cbb7851b07813c336172920057ca4d10833359450bfd36e2ac90cbffc2fa35be2f09102faf4a1a159e4ee1c72f08005656a43495e32",
+          "sha256": "efde88f1b107e2032e4113dc5925f01061a11f32c25d84819e01c36be9636643",
+          "sha1": "85518fec38668fccb9b5defa92505d31c13cc4f5",
+          "md5": "a4eba99d5c8d1054588c5948f7534094"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.0-beta02"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.eclipsesource.tabris.android",
+          "module": "tabris",
+          "version": {
+            "requires": "3.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-code-scanner",
+          "version": {
+            "requires": "16.0.0-beta3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "devtools-3.9.0.aar",
+          "url": "devtools-3.9.0.aar",
+          "size": 182424,
+          "sha512": "e5a3d087aa060041fe849cbb7851b07813c336172920057ca4d10833359450bfd36e2ac90cbffc2fa35be2f09102faf4a1a159e4ee1c72f08005656a43495e32",
+          "sha256": "efde88f1b107e2032e4113dc5925f01061a11f32c25d84819e01c36be9636643",
+          "sha1": "85518fec38668fccb9b5defa92505d31c13cc4f5",
+          "md5": "a4eba99d5c8d1054588c5948f7534094"
+        }
+      ]
+    }
+  ]
+}
