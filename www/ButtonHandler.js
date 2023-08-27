@@ -17,4 +17,7 @@ set maxLines(value) {
       super._listen(name, listening);
     }
   }
+  tester() {
+  this._nativeCall('tester', {});
+  }
 }

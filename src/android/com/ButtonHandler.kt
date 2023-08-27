@@ -15,6 +15,8 @@ class ButtonHandler(private val scope: ActivityScope) : ViewHandler<Button>(scop
         super.destroy(button)
         // perform any necessary cleanup
     }
-
+    fun tester() {
+        println("tester!")
+    }
 
 }
